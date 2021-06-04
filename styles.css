@@ -1,4 +1,3 @@
 #ratBg {
-    max-width: 250%;
-    height: 200%;
+    object-fit: fill;
 }
