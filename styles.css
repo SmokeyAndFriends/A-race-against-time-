@@ -1,3 +1,4 @@
-body {
-    background-image: url(rat-bg.jpg);
+#rat-bg.jpg {
+    height: auto;
+    width: auto;
 }
