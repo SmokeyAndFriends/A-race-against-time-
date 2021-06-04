@@ -1,4 +1,4 @@
-#rat-bg.jpg {
-    height: auto;
-    max-width: 100%;
+body {
+background: #fff url(rat-bg.jpg) center center/auto no-repeat fixed;
 }
+
