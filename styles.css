@@ -1,5 +1,8 @@
+html {
+    min-height: 100%;
+}
+
 body {
-    margin: 0px;
     background: radial-gradient(#008fff 0%, #0f325b 100%);
 }
 
