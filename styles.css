@@ -6,7 +6,7 @@ body {
     background: radial-gradient(#008fff 0%, #0f325b 100%);
 }
 
-#clicker {
+#c {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position: absolute;
@@ -14,7 +14,7 @@ body {
     left: 50%;
 }
 
-#label {
+#l {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50% -50%);
     position: absolute;

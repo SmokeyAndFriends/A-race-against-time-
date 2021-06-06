@@ -4,8 +4,8 @@ var year = -500000;
 var bcad = "BC";
 
 function DOM() {
-    const c = document.getElementById("#clicker");
-    const l = document.getElementById("#label");
+    const c = document.getElementById("#c");
+    const l = document.getElementById("#l");
 }
 
 function click() {
