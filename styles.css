@@ -22,3 +22,14 @@ body {
     top: 75%;
     left: 50%;
 }
+
+.U1 {
+    background: radial-gradient(#fff617 0%, #565307 100%);
+    width:100px;
+    height: 125px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50% -50%);
+    position: absolute;
+    top: 0%;
+    right: 100%;
+}

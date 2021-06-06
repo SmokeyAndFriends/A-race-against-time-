@@ -6,7 +6,7 @@ var bcad = "BC";
 function DOM() {
     const c = document.getElementById("#c");
     const l = document.getElementById("#l");
-}
+};
 
 if (c) {
     c.addEventListener("click", function() {
@@ -19,4 +19,4 @@ if (c) {
         }
         l.innerHTML = "Year: " + Math.abs(year) + bcad;
     });
-}
+};
