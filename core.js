@@ -1,15 +1,17 @@
 const c = document.getElementById("#clicker");
 const l = document.getElementById("#label");
 
-var year = 500000;
-var bcad = "bc";
+var year = -500000;
+var bcad = "BC";
 
-c.addEventListener("click", function() {
+function click() {
     year += 1
     if (year >= 1) {
         bcad = "AD"
     } else(year <= 1) {
-        bcad = "bc"
+        bcad = "BC"
     }
-    l.innerHTML = "Year: " + year + bcad
-});
+    l.innerHTML = "Year: " + Math.abs(year) + bcad
+};
+
+c.addEventListener("click", click());
