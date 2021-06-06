@@ -8,7 +8,8 @@ function click() {
     year += 1
     if (year >= 1) {
         bcad = "AD"
-    } else(year <= 1) {
+    }
+    if (year <= 1) {
         bcad = "BC"
     }
     l.innerHTML = "Year: " + Math.abs(year) + bcad
