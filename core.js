@@ -6,6 +6,8 @@ var bcad = "BC";
 function DOM() {
     const c = document.getElementById("#c");
     const l = document.getElementById("#l");
+
+    const tl = document.getElementsByClassName(".U1")[0];
 };
 
 if (c) {
@@ -20,3 +22,9 @@ if (c) {
         l.innerHTML = "Year: " + Math.abs(year) + bcad;
     });
 };
+
+if (tl) {
+    tl.addEventListener("click", function() {
+
+    });
+}
