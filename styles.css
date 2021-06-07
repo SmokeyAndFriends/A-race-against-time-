@@ -17,8 +17,8 @@ body {
 }
 
 #c:active {
-    width: 290;
-    height: 290;
+    width: 290px;
+    height: 290px;
 }
 
 #l {
@@ -76,4 +76,10 @@ header h1 {
 .nav-bar a.active {
     background-color: #1261d6;
     color: white;
+}
+
+span.abt {
+    text-align: center;
+    width: auto;
+    height: auto;
 }

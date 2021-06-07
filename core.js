@@ -7,7 +7,7 @@ function DOM() {
     const c = document.getElementById("#c");
     const l = document.getElementById("#l");
 
-    const tl = document.getElementsByClassName(".U1")[0];
+    const t = document.getElementsByClassName(".U1")[0];
 };
 
 if (c) {
@@ -23,8 +23,8 @@ if (c) {
     });
 };
 
-if (tl) {
+if (t) {
     tl.addEventListener("click", function() {
 
     });
-}
+};
