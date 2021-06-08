@@ -21,6 +21,6 @@ if (c) {
 
 if (t) {
     t.addEventListener("click", function() {
-        window.onload = console.log("t is defined!");
+        console.log("t is defined!");
     });
 }
