@@ -1,14 +1,10 @@
-window.onload = DOM()
-
 var year = -500000;
 var bcad = "BC";
 
-function DOM() {
-    const c = document.getElementById("#c");
-    const l = document.getElementById("#l");
+const c = document.getElementById("#c");
+const l = document.getElementById("#l");
+const t = document.getElementsByClassName(".U1")[0];
 
-    const t = document.getElementsByClassName(".U1")[0];
-};
 
 if (c) {
     c.addEventListener("click", function() {
@@ -21,10 +17,10 @@ if (c) {
         }
         l.innerHTML = "Year: " + Math.abs(year) + bcad;
     });
-};
+}
 
 if (t) {
-    tl.addEventListener("click", function() {
-
+    t.addEventListener("click", function() {
+        window.onload = console.log("t is defined!");
     });
-};
+}
